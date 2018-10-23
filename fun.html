@@ -3,61 +3,11 @@
   <head>
     <meta charset="utf-8">
   </head>
-  <body>
-  	<a href="index.html"> Home </a>
-  	<br>
-  	<div>
-  		<label>
-  			What did he said ?
-  			<input type="text" placeholder="Issou ?">
-  		</label>
-  	</div>
-  	<br>
-  	<div>
-  		<label>
-  			<input type="checkbox" name="Issou" value="Iss">
-  			Issou diet
-  		</label>
-  	</div>
-  	<div>
-  		<label>
-  			<input type="checkbox" name="Issou2" value="Iss2">
-  			Issou diet2
-  		</label>
-  	</div>
-  	<br>
-	<div>
-  		<label>
-  			<input type="radio" name="type" value="Risitas">
-  			Risitas
-  		</label>
-  		<label>
-  			<input type="radio" name="type" value="Jesús Quintero">
-  			Jesús Quintero
-  		</label>
-  		<label>
-  			<input type="radio" name="type" value="El Pozí">
-  			El Pozí
-  		</label>
-  	</div>
-  		<br>
-  	<span>
-  		<select>
-  			<option value="Risitas">Risitas</option>
-  			<option value="Jesús Quintero"> Jesús Quintero</option>
-  			<option value="El Pozí">El Pozí</option>
-  		</select>
-  	</span>
-
-  	<h2>Story</h2>
-
-<button onclick="myFunction()">Don't press</button>
-
-<script>
-function myFunction() {
-    alert("Issou");
-}
-</script>
-
-  </body>
+  <body onload="init()">
+    <script type="text/javascript" scr="script.js"></script>
+    <div>
+      <button onclick="greet()"> Say hello </button>
+    </div>
+  	<img id="first" src="icons/flower1.png">
+ </body>
 </html>
